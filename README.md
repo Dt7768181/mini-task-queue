@@ -20,7 +20,7 @@ Client → FastAPI → Redis Queue → Worker → Redis Status
 ## Run Locally
 
 ### 1. Start Redis
-cmd -> type wsl 
+```cmd -> type wsl 
 sudo service redis-server start
 
 ### 2. Start Worker
