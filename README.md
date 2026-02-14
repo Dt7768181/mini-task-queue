@@ -74,6 +74,7 @@ pip install -r requirements.txt
 
 ### 3. Start Redis (Docker recommended)
 docker run -p 6379:6379 redis
+alternate use wsl->sudo service redis-server start
 
 ---
 
