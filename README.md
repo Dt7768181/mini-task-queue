@@ -22,7 +22,7 @@ Client → FastAPI → Redis Queue → Worker → Redis Status
 ### 1. Start Redis
 ```cmd -> type wsl 
 sudo service redis-server start
-
+```
 ### 2. Start Worker
 python worker.py
 
